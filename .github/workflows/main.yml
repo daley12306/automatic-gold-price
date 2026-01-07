@@ -34,5 +34,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
-          git diff --staged --quiet || git commit -m "Update gold price - $(date +'%Y-%m-%d %H:%M:%S') [skip ci]"
+          git diff --staged --quiet || git commit -m "Update gold price - $(date +'%d-%m-%D') [skip ci]"
           git push
