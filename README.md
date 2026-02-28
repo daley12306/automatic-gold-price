@@ -53,7 +53,6 @@ automatic-gold-price/
 │   └── gold_price.csv         # Collected gold price dataset
 ├── index.html                 # Static dashboard page
 ├── app.js                     # Frontend logic
-├── assets/                    # Additional static resources
 └── README.md                  # Project documentation
 ```
 
